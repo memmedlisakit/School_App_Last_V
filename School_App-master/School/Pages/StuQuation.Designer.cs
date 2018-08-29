@@ -484,7 +484,7 @@
             this.Controls.Add(this.menuUser);
             this.Controls.Add(this.pnlInfo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(1091, 582);
+            this.MinimumSize = new System.Drawing.Size(1150, 600);
             this.Name = "StuQuation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Suallar";

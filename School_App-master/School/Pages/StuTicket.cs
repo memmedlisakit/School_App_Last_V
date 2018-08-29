@@ -60,8 +60,14 @@ namespace School.Pages
         private void Closing(object sender, FormClosingEventArgs e)
         {
             this.Timer.Stop();
-            this.Timer.Dispose(); 
-            Dashboard.ThisForm.Show();
+            this.Timer.Dispose();
+            try
+            {
+                Dashboard.ThisForm.Show();
+            }
+            catch (Exception)
+            {
+            }
             //new Loading().Hide();
         }
 

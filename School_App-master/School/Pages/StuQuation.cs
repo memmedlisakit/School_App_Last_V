@@ -45,7 +45,13 @@ namespace School.Pages
          
         private void Closing(object sender, FormClosingEventArgs e)
         {
-            Dashboard.ThisForm.Show();
+            try
+            {
+                Dashboard.ThisForm.Show();
+            }
+            catch (Exception)
+            { 
+            } 
         }
 
         List<T> getData<T>(string table)

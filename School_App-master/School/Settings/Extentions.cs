@@ -57,8 +57,8 @@ namespace School.Settings
         public static void DeleteFile(string fileName, string folderName)
         {
             string path = Application.StartupPath;
-            List<string> splited = Regex.Split(path, "bin").ToList();
-            File.Delete(splited[0] + "\\" + folderName + "\\" + fileName);
+            //List<string> splited = Regex.Split(path, "bin").ToList();
+            File.Delete(path + "\\" + folderName + "\\" + fileName);
         }
     }
 }

@@ -246,7 +246,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(43, 405);
+            this.label6.Location = new System.Drawing.Point(24, 350);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(673, 74);
             this.label6.TabIndex = 6;
@@ -266,6 +266,7 @@
             this.Controls.Add(this.menuUser);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuUser;
+            this.MinimumSize = new System.Drawing.Size(1150, 600);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";

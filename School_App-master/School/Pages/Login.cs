@@ -259,14 +259,12 @@ namespace School.Pages
 
         private void Closing(object sender, FormClosingEventArgs e)
         {
-            Loading.ThisForm.Close();
-            StuTicket.ThisForm.Close();
-            StuQuation.ThisForm.Close();
-            Dashboard.ThisForm.Close();
+            //Loading.ThisForm.Close(); 
+            //Dashboard.ThisForm.Close();
             try
             {
                 //Dashboard.ThisForm.Dispose();
-                //Application.Exit();
+                Application.Exit();
             }
             catch (Exception)
             {

@@ -519,6 +519,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pctTicket);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1150, 600);
             this.Name = "StuTicket";
             this.Text = "Bilet";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
